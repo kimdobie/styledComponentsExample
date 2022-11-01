@@ -1,0 +1,45 @@
+.counter-wrapper {
+  width: 50%;
+  border: 1px solid #000;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.counter-label {
+  display: inline-block;
+  font-weight: bold;
+}
+
+.counter-value {
+  display: inline-block;
+  font-size: 200%;
+  margin-left: 10px;
+  width: 1em;
+}
+
+.counter-button-wrapper {
+  display: inline-block;
+
+  button {
+    border: 1px solid #999;
+    border-radius: 3px;
+    margin-left: 10px;
+    padding: 10px;
+  }
+}
+
+.counter-button-add {
+  background-color: lightgreen;
+
+  &::after {
+    content: '+';
+  }
+}
+
+.counter-button-subtract {
+  background-color: lightcoral;
+
+  &::after {
+    content: '-';
+  }
+}

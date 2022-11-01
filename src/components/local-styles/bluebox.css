@@ -1,0 +1,27 @@
+/* div{
+    background-color:blueviolet;
+} */
+
+/* div.bluebox{
+    background-color:steelblue;
+    color:white;
+    padding: 20px;
+} */
+
+/* div.circlebox{
+    background-color:darkgreen;
+    color:white;
+    padding:20px;
+    border-radius: 50%;
+    width:25%;
+    
+} */
+
+.no-style {
+  margin-top: 20px;
+  border: 3px solid green;
+}
+
+.opps-un-used-style {
+  background-color: blueviolet;
+}

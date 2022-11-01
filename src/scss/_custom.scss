@@ -1,0 +1,36 @@
+// Custom CSS for this application.
+
+/* Whenever possible, add the custom CSS in a component itself.  
+Use this file to override items that go across the entire application
+or overriding some Bootstrap css.
+
+NOTE: You can use custom variables stored in the _variables.scss file.
+
+*/
+
+.an-un-used-style-global {
+  /* This is an unused from global css */
+  background-color: maroon;
+  color: white;
+}
+
+.global-styles-wrapper {
+  width: 50%;
+  background-color: mediumvioletred;
+  padding: 20px;
+
+  p {
+    color: white;
+    font-style: italic;
+  }
+}
+
+section {
+  border: 3px solid orangered;
+  font-family: 'Times New Roman', Times, serif;
+  margin-top: 20px;
+}
+
+div.circlebox {
+  background-color: yellow;
+}
