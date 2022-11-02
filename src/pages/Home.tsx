@@ -1,7 +1,6 @@
 import React from 'react';
 import { Row, Col, Card } from 'react-bootstrap';
 
-// *** Main component ***
 const Home = () => (
   <Row data-testid='homePageContainer'>
     <Col>

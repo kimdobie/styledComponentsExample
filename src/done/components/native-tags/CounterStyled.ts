@@ -28,6 +28,13 @@ export const Value = styled.div({
 
 export const Buttons = styled.div`
   display: inline-block;
+
+  /* button {
+    border: 1px solid #999;
+    border-radius: 3px;
+    margin-left: 10px;
+    padding: 10px;
+  } */
 `;
 
 export const Button = styled.button`

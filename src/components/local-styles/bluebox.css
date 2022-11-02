@@ -1,21 +1,10 @@
-/* div{
-    background-color:blueviolet;
-} */
+/* stylelint-disable block-no-empty */
 
-/* div.bluebox{
-    background-color:steelblue;
-    color:white;
-    padding: 20px;
-} */
+div.bluebox {
+}
 
-/* div.circlebox{
-    background-color:darkgreen;
-    color:white;
-    padding:20px;
-    border-radius: 50%;
-    width:25%;
-    
-} */
+div.circlebox {
+}
 
 .no-style {
   margin-top: 20px;
