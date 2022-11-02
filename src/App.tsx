@@ -2,7 +2,7 @@
 
 import React, { ReactElement } from 'react';
 import { BrowserRouter, HashRouter } from 'react-router-dom'; // Use `HashRouter as Router` when you can't control the URL ... like GitHub pages
-import { Container, Card } from 'react-bootstrap';
+import { Container, Card, Alert } from 'react-bootstrap';
 
 const Router =
   process.env.REACT_APP_USE_HASH_ROUTER === 'true' ? HashRouter : BrowserRouter;
@@ -34,6 +34,9 @@ const App = (): ReactElement => {
         <AppNavBar />
         <Container>
           <main>
+            {process.env.REACT_APP_USE_DONE === 'true' ? (
+              <Alert>Viewing done version</Alert>
+            ) : null}
             <AppRoutes />
           </main>
         </Container>

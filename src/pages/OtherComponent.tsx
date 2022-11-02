@@ -1,6 +1,10 @@
 import React, { ReactElement } from 'react';
 import { Row, Col } from 'react-bootstrap';
-import CustomCard from '../components/styled-components/CustomCard';
+import CustomCardStart from '../components/styled-components/CustomCard';
+import CustomCardDone from '../done/components/styled-components/CustomCard';
+
+const CustomCard =
+  process.env.REACT_APP_USE_DONE === 'false' ? CustomCardStart : CustomCardDone;
 
 const OtherComponent = (): ReactElement => (
   <Row>

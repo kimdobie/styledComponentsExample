@@ -1,6 +1,10 @@
 import React from 'react';
 import { Row, Col } from 'react-bootstrap';
-import Counter from '../components/native-tags/Counter';
+import CounterStart from '../components/native-tags/Counter';
+import CounterDone from '../done/components/native-tags/Counter';
+
+const Counter =
+  process.env.REACT_APP_USE_DONE === 'false' ? CounterStart : CounterDone;
 
 const NativeTagsStyled = () => (
   <Row>

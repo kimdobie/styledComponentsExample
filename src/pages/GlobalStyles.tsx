@@ -13,7 +13,7 @@ const GlobalStyles = (): ReactElement => (
 
       <section>This is a section</section>
 
-      <div className='no-style'>I should not have a style</div>
+      <div className='no-style'>I have no style</div>
     </Col>
   </Row>
 );

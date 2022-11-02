@@ -1,6 +1,10 @@
 import React, { ReactElement } from 'react';
 import { Row, Col } from 'react-bootstrap';
-import BlueBox from '../components/local-styles/BlueBox';
+import BlueBoxStart from '../components/local-styles/BlueBox';
+import BlueBoxDone from '../done/components/local-styles/BlueBox';
+
+const BlueBox =
+  process.env.REACT_APP_USE_DONE === 'false' ? BlueBoxStart : BlueBoxDone;
 
 const LocalStyles = (): ReactElement => (
   <Row>
