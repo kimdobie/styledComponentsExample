@@ -1,9 +1,10 @@
 import React, { ReactElement } from 'react';
-import { Card, Button, Alert } from 'react-bootstrap';
+import { Card, Button, Alert, CardProps } from 'react-bootstrap';
 import * as Icon from 'react-bootstrap-icons';
 import styled from 'styled-components';
 
-const CardStyled = styled(Card)`
+// See https://styled-components.com/docs/api#typescript
+const CardStyled = styled(Card)<CardProps>`
   width: 18rem;
   border: 3px solid blueviolet;
 `;
