@@ -14,6 +14,7 @@ import LocalStyles from './pages/LocalStyles';
 import NativeTagsStyled from './pages/NativeTagsStyled';
 import OtherComponent from './pages/OtherComponent';
 import CSSModules from './pages/CSSModules';
+import ControlProps from './pages/ControlProps';
 
 const AppRoutes = (): ReactElement => (
   <>
@@ -26,6 +27,7 @@ const AppRoutes = (): ReactElement => (
       <Route path={ROUTES.NATIVE_TAGS} element={<NativeTagsStyled />} />
       <Route path={ROUTES.STYLED_COMPONENT} element={<OtherComponent />} />
       <Route path={ROUTES.CSS_MODULES} element={<CSSModules />} />
+      <Route path={ROUTES.CONTROL_PROPS} element={<ControlProps />} />
       <Route path='*' element={<FourOhFour />} />
     </Routes>
   </>
