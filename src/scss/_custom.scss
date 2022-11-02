@@ -8,6 +8,16 @@ NOTE: You can use custom variables stored in the _variables.scss file.
 
 */
 
+.navbar-nav .show > .nav-link,
+.navbar-nav .nav-link.active {
+  color: $navbar-light-active-color;
+  border-bottom: 2px solid $navbar-light-active-color;
+}
+
+.nav {
+  margin-bottom: 20px;
+}
+
 .an-un-used-style-global {
   /* This is an unused from global css */
   background-color: maroon;
