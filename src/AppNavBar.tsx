@@ -27,6 +27,7 @@ const AppNavBar = (): ReactElement => (
       </NavItem>
       <NavItem to={ROUTES.GLOBAL}>Global styles</NavItem>
       <NavItem to={ROUTES.LOCAL}>Local styles</NavItem>
+      <NavItem to={ROUTES.CSS_MODULES}>CSS Modules</NavItem>
       <NavItem to={ROUTES.NATIVE_TAGS}>Styled Tags</NavItem>
       <NavItem to={ROUTES.STYLED_COMPONENT}>Styled Components</NavItem>
       <NavItem to={ROUTES.VERSION}>Version</NavItem>

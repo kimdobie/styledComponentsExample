@@ -5,4 +5,5 @@ export default {
   LOCAL: 'local',
   NATIVE_TAGS: 'native-tags',
   STYLED_COMPONENT: 'styled-component',
+  CSS_MODULES: 'css-modules',
 };

@@ -1,0 +1,19 @@
+/* NOTE: CSS Modules only works with class names
+tag selectors will be global
+*/
+
+/* stylelint-disable-next-line selector-class-pattern */
+.greenBox {
+  background-color: green;
+  padding: 20px;
+
+  p {
+    color: white;
+  }
+}
+
+.no-style {
+  margin-top: 20px;
+  border: 3px solid green;
+  padding: 20px;
+}
