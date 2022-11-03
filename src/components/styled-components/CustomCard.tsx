@@ -4,11 +4,8 @@ import * as Icon from 'react-bootstrap-icons';
 
 type TextProps = {
   message: string;
-  className?: string;
 };
-const Text = ({ className, message }: TextProps) => (
-  <p className={className}>{message}</p>
-);
+const Text = ({ message }: TextProps) => <p>{message}</p>;
 
 const CustomCard = (): ReactElement => (
   <Card>
