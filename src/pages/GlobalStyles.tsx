@@ -13,7 +13,7 @@ const GlobalStyles = (): ReactElement => (
 
       <section>This is a section</section>
 
-      <div className='no-style'>I have no style</div>
+      <div className='random-style'>I have no style</div>
     </Col>
   </Row>
 );

@@ -1,9 +1,15 @@
-/* stylelint-disable block-no-empty */
-
 div.bluebox {
+  background-color: steelblue;
+    color: white;
+    padding: 20px;
 }
 
 div.circlebox {
+  background-color: darkgreen;
+    color: white;
+    padding: 20px;
+    border-radius: 50%;
+    width: 25%;
 }
 
 .opps-un-used-style {
